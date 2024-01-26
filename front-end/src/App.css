@@ -1,0 +1,31 @@
+:root {
+  --blue: #0b80a4;
+  --red: #e08686;
+  margin: 0;
+  /* padding: 50px; */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: var(--blue);
+  padding-top: 25px;
+  padding-bottom: 15px;
+  min-height: 50px;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* .App .filter-and-create-user {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.filter-and-create-user.button {
+  background-color: var(--blue);
+}

@@ -1,0 +1,28 @@
+.filter-and-create-person {
+    align-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-input {
+    min-width: 500px;
+    align-content: center;
+    margin-left: 100px;
+}
+
+table {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+    align-content: center;
+}
+
+.button-create {
+    background: var(--blue);
+    margin-left: 50px;
+}
+
+.button-delete {
+    background: var(--red);
+}
